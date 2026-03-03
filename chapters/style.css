@@ -37,8 +37,7 @@ h1 {
   font-size: 5vh;
 }
 img {
-  max-width: 150px;
-  clip-path: polygon(50% 100%, 90% 80%, 100% 35%, 75% 0, 25% 0, 0 35%, 10% 80%);
+  max-width: 190px;
 }
 .info {
   text-align: center;
@@ -68,25 +67,101 @@ td:first-child {
   font-size: 0.8em;
   font-weight: bold;
   display: block;
-  width:90%;
-  position: absolute;
+  width:100%;
+  margin-bottom: 5px;
   z-index: 1;
-  color: white;
+  color: #fbdbb3;
   text-shadow: 0 0 2.5px #000, 0 0 2.5px #000,0 0 2.5px #000,0 0 2.5px #000,0 0 2.5px #000;
 }
+.name.lce {
+  background-color: #ffffa1;
+  color: #fc3a3a;
+  font-size: 0.9em;
+}
+.name.yoshihide {
+  background-color: #090909;
+  color: #cf0000;
+  font-size: 0.9em;
+}
+.name.araya {
+  background-color: #090909;
+  color: #5c53e7;
+  font-size: 0.9em;
+}
+.name.index {
+  background-color: #86bada;
+  color: #f3f1eb;
+  font-size: 0.9em;
+}
+.name.isan {
+  background-color: #d4e1e8;
+  font-size: 0.9em;
+}
+.name.faust {
+  background-color: #ffb1b4;
+  font-size: 0.9em;
+}
+.name.donki {
+  background-color: #ffef23;
+  font-size: 0.9em;
+}
+.name.ryoshu {
+  background-color: #cf0000;
+  font-size: 0.9em;
+}
+.name.meur {
+  background-color: #293b95;
+  font-size: 0.9em;
+}
+.name.honglu {
+  background-color: #5bffde;
+  font-size: 0.9em;
+}
+.name.heath {
+  background-color: #4e3076;
+  font-size: 0.9em;
+}
+.name.ishy {
+  background-color: #ff9500;
+  font-size: 0.9em;
+}
+.name.rodya {
+  background-color: #820000;
+  font-size: 0.9em;
+}
+.name.dante {
+  background-color: #b01c37;
+  font-size: 0.9em;
+}
+.name.sinclair {
+  background-color: #8b9c15;
+  font-size: 0.9em;
+}
+.name.outis  {
+  background-color: #325339;
+  font-size: 0.9em;
+}
+.name.gregor  {
+  background-color: #69350b;
+  font-size: 0.9em;
+}
+.name.saude {
+  background-color: #f8c200;
+  color: #0c0c41;
+  font-size: 0.9em;
+}
+
 .icon {
+  width: 20%;
   position: relative;
   text-align: center;
 }      
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body {
     font-size: 15px;
   }
   img {
-    max-width: 10vh;
-  }
-  .name {
-    width: 80%;
+    max-width: 100%;
   }
 }
